@@ -1,4 +1,4 @@
-<a href="#" class="card__container">
+<a href="{{gameLink}}" target="_blank" class="card__container">
 	<img
 		class="card__img"
 		[src]=[gameCover]
@@ -9,9 +9,11 @@
 		gameLabel="{{gameLabel}}"
 	>
 	</app-card-label>
-	<app-card-pricing
-		gameType="{{gameType}}"
-		gamePrice="{{gamePrice}}"
-	>
-	</app-card-pricing>
+ <app-card-pricing
+ 	gameTitle="{{gameTitle}}"
+ 	gameType="{{gameType}}"
+ 	gamePrice="{{gamePrice}}"
+ >
+ </app-card-pricing>
+
 </a>

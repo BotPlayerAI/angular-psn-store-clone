@@ -12,6 +12,10 @@ export class CardComponent implements OnInit {
 	@Input()
 	gameLabel:string=""
 	@Input()
+	gameTitle:string=""
+	@Input()
+	gameLink:string=""
+	@Input()
 	gameType:string ="XPTO | PS4"
 	@Input()
 	gamePrice:string = "R$ 399,90"
